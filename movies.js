@@ -35,7 +35,7 @@ $(function () {
     $("#movie-table-body").empty();
 
     for (let movie of sortedMovies) {
-      const dataToHTML = createMovieDataonHTML(movie);
+      const dataToHTML = createMovieDataOnHTML(movie);
       $("#movie-table-body").append(dataToHTML);
     }
 
